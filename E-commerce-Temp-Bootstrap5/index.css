@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #1c1c50;
+}
+
+.top-navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: #a9a9a926;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-icons {
+    margin-left: 45px;
+}
+
+.top-icons i {
+    font-size: 20px;
+    color: #1c1c50;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.other-link {
+    margin-right: 45px;
+}
+
+.other-link {
+    font-size: 19px;
+    color: #1c1c50;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#btn-login {
+    padding: 2.5px 22px;
+    background-color: #1c1c50;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: 0.5s ease;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#btn-login:hover {
+    border: 1.8px solid #1c1c50;
+    color: #1c1c50;
+    border-radius: 6px;
+    background: transparent;
+}
+
+#btn-signin {
+    padding: 2.5px 22px;
+    background-color: #1c1c50;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: 0.5s ease;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#btn-signin:hover {
+    border: 1.8px solid #1c1c50;
+    color: #1c1c50;
+    border-radius: 6px;
+    background: transparent;
+}
+
+.other-link i {
+    font-size: 22px;
+    color: #1c1c50;
+}
+
+
+/* navbar section */
+
+.home-section {
+    width: 100%;
+    height: 92vh;
+    background-color: #fff;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    color: #ee9e35;
+}
+
+#navbar {
+    background-color: #1c1c50;
+}
+
+#navbar .nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 6px;
+    transition: all 0.5s ease;
+}
+
+
+#navbar .nav-link:hover {
+    color: #ee9e35;
+}
+
+.dropdown li a {
+    color: #fdfdfd;
+}
+
+.search {
+    margin-right: 30px;
+}
+
+.search i {
+    font-size: 20px;
+    margin-left: 14px;
+}
+
+.search i:hover {
+    color: #1c1c50;
+}
+
+
+/* home section */
+
+.home {
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    position: relative;
+}
+
+
+.home .home-img {
+    flex: 1 1 500px;
+}
+
+.home .home-img img {
+    width: 100%;
+}
+
+.home .content {
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+
+.content h4 {
+    font-size: 17px;
+    margin-left: 70px;
+    font-weight: 600;
+    color: #1c1c50;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    font-size: 56px;
+    margin-left: 70px;
+    font-weight: 700;
+    color: #1c1c50;
+    text-transform: uppercase;
+}
+
+.content h3 {
+    font-size: 34px;
+    margin-left: 70px;
+    font-weight: 700;
+    color: #1c1c50;
+    text-transform: uppercase;
+}
+
+.content #shopnow {
+    margin-left: 70px;
+    width: 180px;
+    height: 45px;
+    border-radius: 6px;
+    border: 2px solid #1c1c50;
+    outline: none;
+    background-color: transparent;
+    color: #1c1c50;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+}
+
+.content #shopnow:hover {
+    background-color: #1c1c50;
+    color: #fff;
+}
+
+/* card section */
+
+
+.brand {
+    font-weight: 600;
+    color: #1c1c50;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card-title1 {
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #f65df6;
+    color: #ffffff;
+    height: 30px;
+    width: 85px;
+    padding: 4px 7px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+}
+
+.card img {
+    height: 68vh;
+}
+
+
+/* banner section */
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    /* background: #31318a; */
+    background: url("../banner-bg.jpg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner .content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner .content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+.banner .content p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.banner .content button {
+    width: 160px;
+    height: 44px;
+    outline: none;
+    font-weight: 600;
+    background-color: #31318a;
+    border: 2px solid #31318a;
+    color: #fff;
+    transition: 0.5s ease;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.banner .content button:hover {
+    background-color: transparent;
+    border: 2px solid #31318a;
+    color: #31318a;
+}
+
+
+/* product section */
+
+#products-cards {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#products-cards .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#products-cards .card img {
+    height: 50vh;
+}
+
+#products-cards h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+#products-cards h4 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #555;
+}
+
+#products-cards button {
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    font-weight: 600;
+    color: #31318a;
+    border: 2px solid #31318a;
+    transition: 0.5s ease;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#products-cards button:hover {
+    background-color: #31318a;
+    color: #fff;
+}
+
+#products-cards .star {
+    color: #ee9e35;
+}
+
+#products-cards button {
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    font-weight: 600;
+    color: #31318a;
+    border: 2px solid #31318a;
+    transition: 0.5s ease;
+    border-radius: 6px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#products-cards .SeeMoreBtn:hover {
+    background-color: #31318a;
+    color: #fff;
+}
+
+
+/* blogs section */
+
+#blogs {
+    width: 100%;
+    text-align: center;
+}
+
+#blogs .card img {
+    height: 50vh;
+}
+
+#blogs h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+#blogs p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
+
+#blogs button {
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    font-weight: 600;
+    color: #31318a;
+    border: 2px solid #31318a;
+    transition: 0.5s ease;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#blogs button:hover {
+    background-color: #31318a;
+    color: #fff;
+}
+
+
+/* offer section  */
+
+#offers {
+    text-align: center;
+    width: 100%;
+}
+
+#offers i {
+    font-size: 28px;
+}
+
+#offers .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #adacac;
+    border-radius: 6px;
+}
+
+#offers h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+#offers p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+
+/* footer section */
+
+#footer {
+    padding: 0 0 30px 0;
+    font-size: 15px;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px;
+    background-color: #1c1c50;
+}
+
+.footer-content h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-content h2 span {
+    color: #ee9e35;
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-content i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-content span:nth-child(2) {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-content .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content .footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-content .footer-links li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* copyright section */
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding-bottom:10px ;
+}
+

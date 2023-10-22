@@ -1,0 +1,136 @@
+@media screen and (max-width:500px) {
+    .top-icons {
+        margin-left: 30px;
+    }
+
+    .top-icons i {
+        font-size: 15px;
+    }
+
+    .other-link {
+        font-size: 15px;
+    }
+
+    #btn-login {
+        padding: 2px 20px;
+    }
+
+    #btn-signin {
+        padding: 2px 20px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .top-icons {
+        margin-left: 10px;
+    }
+
+    .top-icons i {
+        font-size: 12px;
+    }
+
+    .other-link {
+        margin-right: 10px;
+    }
+
+    .other-link i {
+        font-size: 12px;
+    }
+
+    #btn-login {
+        padding: 2px 14px;
+        font-size: 13px;
+    }
+
+    #btn-signin {
+        padding: 2px 14px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .content h4 {
+        padding: 0 auto;
+        margin-left: 50px;
+    }
+
+    .content h2 {
+        margin-left: 50px;
+        font-size: 50px;
+        padding: 0 auto;
+    }
+
+
+    .content h3 {
+        margin-left: 50px;
+    }
+
+    .content #shopnow {
+        margin-left: 50px;
+    }
+
+    .home .home-img {
+        margin-right: 60px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .content h2 {
+        margin-left: 20px;
+    }
+
+    .content h3 {
+        margin-left: 20px;
+    }
+
+    .content #shopnow {
+        margin-left: 20px;
+    }
+
+    .content h4 {
+        margin-left: 20px;
+    }
+
+    .content #shopnow {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .home-section {
+        height: 115vh;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .home-section {
+        height: 125vh;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .home-section {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home-section {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home-section {
+        height: 90vh;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .home-section {
+        height: 85vh;
+    }
+}
